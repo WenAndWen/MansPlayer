@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/financial_fill"
+            android:title="@string/nav_1" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/barrage_fill"
+            android:title="@string/nav_2" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/emoji_fill"
+            android:title="@string/nav_3" />
+
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/qrcode_fill"
+                android:title="@string/nav_4" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/group_fill"
+                android:title="@string/nav_5" />
+        </menu>
+    </item>
+
+</menu>
