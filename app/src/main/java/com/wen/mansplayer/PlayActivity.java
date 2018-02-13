@@ -154,6 +154,7 @@ public class PlayActivity extends AppCompatActivity  {
                                 }
                             }});
                     }}});
+
             AlertDialog.Builder builderSign =new AlertDialog.Builder(PlayActivity.this);
             builderSign.setTitle("新用户注册");
             builderSign.setView(layoutSign);
